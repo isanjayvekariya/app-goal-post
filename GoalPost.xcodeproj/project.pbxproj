@@ -16,6 +16,7 @@
 		3CA8B2781F5A359D00F1A8D8 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8B2771F5A359D00F1A8D8 /* GoalCell.swift */; };
 		3CA8B27A1F5A4A8C00F1A8D8 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8B2791F5A4A8C00F1A8D8 /* GoalType.swift */; };
 		3CA8B27C1F5A520D00F1A8D8 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8B27B1F5A520D00F1A8D8 /* CreateGoalVC.swift */; };
+		3CA8B27E1F5A564000F1A8D8 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8B27D1F5A564000F1A8D8 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3CA8B2771F5A359D00F1A8D8 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		3CA8B2791F5A4A8C00F1A8D8 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		3CA8B27B1F5A520D00F1A8D8 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		3CA8B27D1F5A564000F1A8D8 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		3CA8B2761F5A234800F1A8D8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3CA8B27D1F5A564000F1A8D8 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				3CA8B27A1F5A4A8C00F1A8D8 /* GoalType.swift in Sources */,
 				3CA8B2611F5A230600F1A8D8 /* GoalsVC.swift in Sources */,
 				3CA8B25F1F5A230600F1A8D8 /* AppDelegate.swift in Sources */,
+				3CA8B27E1F5A564000F1A8D8 /* UIViewControllerExt.swift in Sources */,
 				3CA8B2671F5A230600F1A8D8 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJU3H3UY7Y;
 				INFOPLIST_FILE = GoalPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = worldwideinc.GoalPost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJU3H3UY7Y;
 				INFOPLIST_FILE = GoalPost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = worldwideinc.GoalPost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
