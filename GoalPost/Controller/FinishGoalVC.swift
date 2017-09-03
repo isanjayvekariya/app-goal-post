@@ -51,10 +51,10 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
         
         do {
             try managedContext.save()
-            print("Successfully saved data.")
+            print("Successfully saved goal.")
             completion(true)
         } catch {
-            debugPrint("Failed to save data: \(error.localizedDescription)")
+            debugPrint("Could not save: \(error.localizedDescription)")
             completion(false)
         }
     }
